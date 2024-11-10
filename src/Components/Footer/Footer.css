@@ -1,0 +1,25 @@
+.footer {
+  padding: 20px;
+  background-color: #3333333f;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 1rem 2rem;
+  border-radius: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer {
+    margin: 1rem 1rem;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    margin: 1rem 0.5rem;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}

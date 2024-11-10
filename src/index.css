@@ -1,0 +1,29 @@
+/* Global Styling */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+  height: 100%; /* Ensure the body takes full height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Universal Box Sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Accessibility and Focus States */
+input:focus, button:focus {
+  outline: 2px solid #4F46E5; /* Visible focus outline for better accessibility */
+  outline-offset: 2px; /* Slight spacing around the element when focused */
+}
+
+/* General Styling */
+input, button {
+  font-family: inherit; /* Ensures consistency in font across input and buttons */
+  color: inherit;
+}
+

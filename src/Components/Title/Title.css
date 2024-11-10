@@ -1,0 +1,25 @@
+#title_container {
+    width: 100%;
+  }
+  
+  #title_inner_container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #title {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 5px #ff00d4, 0 0 10px #ff00d4, 0 0 20px #ff00d4, 0 0 40px #ff00d4;
+  }
+  
+  .chat_title_container {
+    margin-top: 10px;
+  }
+  
+  .chat_title {
+    font-size: 35px;
+  }
+  

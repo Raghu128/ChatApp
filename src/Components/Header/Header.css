@@ -1,0 +1,134 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 8px;
+  margin: 0 2rem;
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(12, 15, 23) 70.2%);
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Links and Buttons */ /* Combined similar styles */
+.nav-links,
+.auth-links,
+.request-actions {
+  display: flex;
+  align-items: center; /* Align items to the center */
+  list-style: none; /* Remove list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a, 
+.login-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover,
+.login-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  background-color: #e9ecef;
+}
+
+.user-name {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+/* Buttons (Logout, Request Actions) */ /* Combined button styles */
+.logout-button,
+.request-actions button {
+  background-color: #dc3545; /* Red background */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logout-button:hover,
+.request-actions button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Notification Styles */
+.notification-icon-container {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.notification-icon {
+  font-size: 20px;
+  color: white;
+}
+
+.notification-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #dc3545; /* Red badge */
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 8px;
+}
+
+.notification-list {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  z-index: 1000;
+  padding: 1rem; 
+}
+
+.notification-list li {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.notification-list li:last-child {
+  border-bottom: none;
+}
+
+.notification-list p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+.text-group-notification, .no-notifications{
+  color: black;
+}
+
+/* Responsive styles */ 
+/* ... your responsive styles remain the same ... */ 
